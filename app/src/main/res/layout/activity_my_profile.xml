@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/heading_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile">
+
+    <ImageView
+        android:id="@+id/MyPicture"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mypicture"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dennis_essuman_quansah"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/MyPicture"
+        app:layout_constraintStart_toStartOf="@+id/MyPicture"
+        app:layout_constraintTop_toBottomOf="@+id/MyPicture" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#0C0B0B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+    <TextView
+        android:id="@+id/txtTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginRight="300dp"
+        android:text="@string/tracks"
+        android:textSize="20sp"
+        app:fontFamily="@font/fira_sans_bold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/txtAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginRight="215dp"
+        android:text="@string/android"
+        android:textSize="20sp"
+        app:fontFamily="@font/fira_sans_bold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtTrack"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/txtCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/countrys"
+        android:textSize="20sp"
+        app:fontFamily="@font/fira_sans_bold_italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTrack" />
+
+    <TextView
+        android:id="@+id/txtGhana"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginRight="216dp"
+        android:text="@string/ghana"
+        android:textSize="20sp"
+        app:fontFamily="@font/fira_sans_bold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtCountry"
+        app:layout_constraintTop_toBottomOf="@+id/txtAndroid" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="318dp"
+        android:layout_marginRight="318dp"
+        android:text="@string/emails"
+        android:textSize="20sp"
+        app:fontFamily="@font/fira_sans_bold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCountry" />
+
+    <TextView
+        android:id="@+id/txtEmailString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginRight="227dp"
+        android:text="@string/dennisessuman37_gmail_com"
+        android:textSize="20sp"
+        app:fontFamily="@font/fira_sans_bold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txtEmail"
+        app:layout_constraintTop_toBottomOf="@+id/txtGhana" />
+
+    <TextView
+        android:id="@+id/txtPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="336dp"
+        android:layout_marginRight="336dp"
+        android:text="@string/phone_numbers"
+        android:textSize="20sp"
+        app:fontFamily="@font/fira_sans_bold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginRight="165dp"
+        android:text="@string/_233278022689"
+        android:textSize="20sp"
+        app:fontFamily="@font/fira_sans_bold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toEndOf="@+id/txtPhoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmailString" />
+
+    <TextView
+        android:id="@+id/txtSlackUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="293dp"
+        android:layout_marginRight="293dp"
+        android:text="@string/slack_usernames"
+        android:textSize="20sp"
+        app:fontFamily="@font/fira_sans_bold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPhoneNumber" />
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginRight="165dp"
+        android:text="@Dennis Essuman"
+        android:textSize="20sp"
+        app:fontFamily="@font/fira_sans_bold_italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toEndOf="@+id/txtSlackUsername"
+        app:layout_constraintTop_toBottomOf="@+id/txtNumber" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

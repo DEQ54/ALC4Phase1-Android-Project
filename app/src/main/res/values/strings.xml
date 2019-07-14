@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="Welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="dennis_essuman_quansah">Dennis Essuman-Quansah</string>
+    <string name="todo">TODO</string>
+    <string name="country_ghana">Country: Ghana</string>
+    <string name="track_android">Track: Android</string>
+    <string name="slack_username_dennis_essuman">Slack Username: @Dennis Essuman</string>
+    <string name="phone_number_233278022689">Phone Number: +233278022689</string>
+    <string name="email_dennisessuman37_gmail_com">Email: dennisessuman37@gmail.com</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="track">Track</string>
+    <string name="android">Android</string>
+    <string name="country">Country</string>
+    <string name="ghana">Ghana</string>
+    <string name="email">Email</string>
+    <string name="dennisessuman54_gmail_com">dennisessuman54@gmail.com</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="_233278022689">+233278022689</string>
+    <string name="slack_username">Slack Username</string>
+    <string name="tracks">Track:</string>
+    <string name="countrys">Country:</string>
+    <string name="emails">Email:</string>
+    <string name="phone_numbers">Phone Number:</string>
+    <string name="slack_usernames">Slack Username:</string>
+    <string name="dennisessuman37_gmail_com">dennisessuman37@gmail.com</string>
+</resources>
