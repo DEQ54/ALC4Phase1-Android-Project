@@ -5,6 +5,7 @@
     android:id="@+id/heading"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/images"
     android:visibility="visible"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp"
@@ -16,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/Welcome_to_alc_4_0"
-        android:textColor="@android:color/black"
+        android:textColor="#33334F"
         android:textSize="35sp"
         app:fontFamily="@font/fira_sans_bold_italic"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,11 +27,12 @@
 
     <Button
         android:id="@+id/btnMyProfile"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:background="@drawable/button_background"
         android:text="@string/my_profile"
-        android:textColor="@android:color/black"
+        android:textColor="#B3FFB3"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,13 +44,15 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
+        android:background="@drawable/button_background"
         android:text="@string/about_alc"
-        android:textColor="@android:color/background_dark"
+        android:textColor="#B3FFB3"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtWelcome"
         tools:text="ABOUT ALC" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

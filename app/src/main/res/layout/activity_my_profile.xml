@@ -16,14 +16,15 @@
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <TextView
         android:id="@+id/txtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/dennis_essuman_quansah"
-        android:textColor="@android:color/black"
+        android:textColor="#141111"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/MyPicture"
         app:layout_constraintStart_toStartOf="@+id/MyPicture"
